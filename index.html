@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="Author" content="Diamond Ali">
+		<title>Calculator</title>
+		<link rel="stylesheet" href="./Design/calculator.css">
+		<link href="https://fonts.googleapis.com/css2?family=Inter&family=Prata&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/cdf46354d6.js" crossorigin="anonymous"></script>
+</head>
+  <body>
+  		<div class="modes blue">
+  				<i class="fa-solid fa-moon dark"></i>
+  				<i class="fa-solid fa-sun light"></i>
+  		</div>
+  		<div>
+  				<div class="confirmationMessage black">
+  						<h3>Lightmode</h3>
+  						<p class="text"></p>
+  						<div class="choice">
+  								<p class="cancel">cancel</p>
+  								<p class="okay">Ok</p>
+  						</div>
+  				</div>
+  		</div>
+	  <div class="workSpaceContainer">
+	    <input 
+	      type="text" 
+	      name="input" 
+	      value="0" 
+	      class="white"
+	      id="workSpace" 
+	      disabled>
+	  </div>
+	  <div id="keys">
+	    <div class="clear blue">c</div>
+	    <div class="divide blue" data-operator="/" >÷</div>
+	    <div class="times blue" data-operator="*" >×</div>
+	    <div class="backspace blue"><i class="fa-solid fa-delete-left"></i></div>
+	    <div class="seven white" data-number="7">7</div>
+	    <div class="eight white" data-number="8">8</div>
+	    <div class="nine white" data-number="9" >9</div>
+	    <div class="minus blue" data-operator="-" >-</div>
+	    <div class="four white" data-number="4">4</div>
+	    <div class="five white" data-number="5">5</div>
+	    <div class="six white" data-number="6">6</div>
+	    <div class="plus blue" data-operator="+" >+</div>
+	    <div class="one white" data-number="1">1</div>
+	    <div class="two white" data-number="2">2</div>
+	    <div class="three white" data-number="3">3</div>
+	    <div class="equalTo blueButton">=</div>
+	    <div class="percentage white">%</div>
+	    <div class="zero white" data-number="0">0</div>
+	    <div class="decimalPoint white" data-help=".">.</div>
+
+	  </div>
+	  <script src="calculator.js"></script>
+  </body>
+</html>
